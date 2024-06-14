@@ -1,0 +1,35 @@
+.greet{
+    font-weight: bold;
+}
+.identity{
+    font-size: 12px;
+}
+.title{
+    font-size: 12px;
+  
+}
+.number{
+    font-size: 16px;
+    font-weight: bold;
+   
+}
+
+.item{
+    font-size: 18px;
+    font-weight: bold;
+}
+.notesMonth {
+    font-size: 28px;
+    text-align: center;
+  }
+  .notesMonth section {
+    font-size: 28px;
+  }
+  .events {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+.operate div{
+    font-size: 10px;
+}

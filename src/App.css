@@ -1,0 +1,22 @@
+@import '~antd/dist/antd.css';
+*{margin: 0;padding: 0;}
+.fl{float: left;}
+.fr{float: right;}
+.clear{clear: both;}
+.mt{margin-top: 10px;}
+.mb{margin-bottom: 10px;}
+.ml{margin-left: 10px;}
+.mr{margin-right: 10px;}
+.m{margin: 10px 5px;}
+.pt{padding-top: 10px;}
+.pb{padding-bottom: 10px;}
+.pl{padding-left: 15px;}
+.pr{padding-right: 15px;}
+.tac{
+    text-align: center;
+}
+
+/* //antd组件内 ResizeObserver loop limit exceeded报错隐藏 */
+#webpack-dev-server-client-overlay {
+  display: none !important;
+}

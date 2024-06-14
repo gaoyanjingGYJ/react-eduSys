@@ -1,0 +1,35 @@
+  .row {
+      display: flex;
+      align-items: center;
+      font-family: '微软雅黑';
+  }
+
+  .rank {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: #f1f1f3;
+      color: #79797b;
+      text-align: center;
+      line-height: 20px;
+      margin-right: 10px;
+  }
+
+  .sales {
+      margin-left: auto;
+  }
+
+
+  .highlight {
+      background-color: #2f465b;
+      color: #fff;
+  }
+
+  .saleRankTitle {
+      font-weight: bold;
+  }
+  .operate{
+    font-size: 15px;
+  }
+
+  

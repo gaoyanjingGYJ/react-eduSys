@@ -1,0 +1,26 @@
+.antrow {  
+    display: flex;  
+  }  
+    
+  .antcol {  
+    display: flex;  
+    flex-direction: column;  
+  }  
+    
+  /* 使右侧最后一行占据剩余空间 */  
+  .flexfill {  
+    display: flex;
+    flex-grow: 1;  
+    display: flex;  
+    flex-direction: column;  
+  }  
+    
+  /* 使最后一个Card填充父级Row的剩余空间 */  
+  .flexfill .rightcard {  
+    flex-grow: 1;  
+  }  
+    
+  /* 可选：给左侧Card设置一个最小高度，以便更好地展示效果 */  
+  .leftcard {  
+    min-height: 300px; /* 或者其他适合你的高度 */  
+  }

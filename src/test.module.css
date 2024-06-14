@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rank {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: red; 
+    color: white;
+    text-align: center;
+    line-height: 24px;
+  }
+  
+  .sales {
+    margin-left: auto; 
+  }
+  
+
+  .highlight {
+    background-color: black;
+    color: red;
+  }
+  
+
+  .container, .row {
+    
+    margin: 0;
+    padding: 0;
+  }
